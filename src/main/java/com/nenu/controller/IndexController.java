@@ -22,4 +22,10 @@ public class IndexController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/list")
+    public String list() {
+        return "list";
+    }
+
 }
